@@ -840,9 +840,13 @@ input, label {
 }
 .footer__info {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   width: 30%;
-  padding: 15px 20px 10px 10px;
+  padding: 20px 20px 10px 10px;
+  p {
+    margin: 0;
+    padding-bottom: 10px;
+  }
 }
 
 .footer__title {   
@@ -850,14 +854,17 @@ input, label {
   text-transform: uppercase; 
   font-family: 'OpenSans';
   font-weight: 800;  
+  margin-bottom: 20px; 
   h3 {    
     font-family: Opensans;
     font-size: 20px; 
     font-weight: 800;
-    color : $green    
+    color : $green;     
+    margin: 0;
+
   }
   h3::before{
-    display: none;
+    display: none;    
   }
   span { 
     padding-left: 5px;    
@@ -894,7 +901,7 @@ input, label {
   display: flex;    
   color: #fff;
   background-color: #4B5464;
-  padding: 35px 15px 30px 50px;
+  padding: 25px 15px 30px 50px;
   
 }
 .footer__nav-wrapper {
